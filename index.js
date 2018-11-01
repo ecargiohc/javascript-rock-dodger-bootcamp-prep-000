@@ -154,9 +154,9 @@ function moveDodgerLeft() {
    */
   //var dodger = positionToInteger(dodger.style.left);
   //     expect(positionToInteger(dodger.style.left)).toBeLessThan(left)
-  const left = positionToInteger(DODGER.style.left);
+  const left = positionToInteger(dodger.style.left);
   function almost() {
-    DODGER.style.left = `${left - 4}px`;
+    dodger.style.left = `${left - 4}px`;
   }
     if (left >= 0) {
   window.requestAnimationFrame(almost);
