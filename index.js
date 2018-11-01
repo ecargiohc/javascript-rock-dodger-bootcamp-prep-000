@@ -176,7 +176,7 @@ function moveDodgerRight() {
     dodger.style.left = `${right + 4}px`;
   }
   if (left < dodger.style.left) {
-    window.requestAnimationFrame(done());
+    window.requestAnimationFrame(done);
 }
   //     moveDodgerRight()
   //     expect(positionToInteger(dodger.style.left)).toBeGreaterThan(left)
