@@ -171,7 +171,7 @@ function moveDodgerRight() {
    */
    //DODGER.style.right = `${right += 4}px`;
    //window.requestAnimationFrame(moveDodgerRight);
-  let left = positionToInteger(dodger.style.right);
+  let right = positionToInteger(dodger.style.right);
   function done() {
     dodger.style.right = `${right += 4}px`;
   }
