@@ -158,7 +158,7 @@ function moveDodgerLeft() {
   function almost() {
     dodger.style.left = `${left - 4}px`;
   }
-    if (left >= 0) {
+    if (left > 0) {
   window.requestAnimationFrame(almost);
     }
 }
