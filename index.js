@@ -159,7 +159,7 @@ function moveDodgerLeft() {
     dodger.style.left = `${left + 4}px`;
   }
   //   if (left > dodger.style.left) {
-  //     window.requestAnimationFrame(almost);
+  window.requestAnimationFrame(almost);
   // }
 }
 
