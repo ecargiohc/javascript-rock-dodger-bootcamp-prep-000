@@ -158,9 +158,9 @@ function moveDodgerLeft() {
   function almost() {
     dodger.style.left = `${left + 4}px`;
   }
-    if (left > dodger.style.left) {
-      window.requestAnimationFrame(almost);
-  }
+  //   if (left > dodger.style.left) {
+  //     window.requestAnimationFrame(almost);
+  // }
 }
 
 function moveDodgerRight() {
